@@ -31,6 +31,6 @@ for even in even_numbers:  # iterate through list of even_numbers
     sum_even_numbers += even  # add each number of even_number list to the sum_even_numbers variable
 try:
     even_average = sum_even_numbers/len(even_numbers)  # calculate average of add numbers
-    print(f"The average for odd numbers is {even_average:.2f}")  # print the result to console
+    print(f"The average for even numbers is {even_average:.2f}")  # print the result to console
 except ZeroDivisionError:  # if the even_numbers list is empty then the error is thrown
     print("Division by zero")
