@@ -67,4 +67,4 @@ def dict_key_renaming_and_assigning_max_value(dict_with_value_list):  # Creating
 
 dict_key_renaming_and_assigning_max_value(generate_dict_with_value_list(generate_list_of_dicts(5, 3)))
 # Calling the function.
-# dict_kye_renaming(generate_dict_with_value_list(list_of_dicts))  # for testing purposes
+
