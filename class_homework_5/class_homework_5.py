@@ -36,7 +36,7 @@ class PrivateAd(News):
         self.expiration_date = input("Enter the expiration date in the following format DD/MM/YYYY: ")
         self.validate_date()
         self.news = self.write_title() + '\n' + self.message_text + '\n' + \
-                    f'Actual until: {self.expiration_date}, ' + self.count_days_left() + ' days left'
+                    f'Actual until: {self.expiration_date:%d/%m/%Y}, ' + self.count_days_left() + ' days left'
 
     def validate_date(self):
         try:

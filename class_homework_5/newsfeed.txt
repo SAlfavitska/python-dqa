@@ -1,16 +1,16 @@
 News_____________________
-Something happened.
-Lviv, 17/02/2022  17:08
+Something happend.
+Lviv, 17/02/2022  20:52
 
 PrivateAd________________
-Something happened.
-Actual until: 2022-04-12 00:00:00, 53 days left
+Something happend.
+Actual until: 12/05/2022, 83 days left
 
-Weather in New York______
-Temperature: 12°C
-Humidity: 67%
-Temp_min: 8.3°C
-Temp_max: 16.97°C
-Wind speed: 8.75 meter/sec
-Weather Report: clear sky
+Weather in London________
+Temperature: 8°C
+Humidity: 73%
+Temp_min: 7.57°C
+Temp_max: 10.15°C
+Wind speed: 6.69 meter/sec
+Weather Report: few clouds
 
