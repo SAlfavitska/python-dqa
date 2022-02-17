@@ -1,0 +1,16 @@
+News_____________________
+Something happened.
+Lviv, 17/02/2022  17:08
+
+PrivateAd________________
+Something happened.
+Actual until: 2022-04-12 00:00:00, 53 days left
+
+Weather in New York______
+Temperature: 12°C
+Humidity: 67%
+Temp_min: 8.3°C
+Temp_max: 16.97°C
+Wind speed: 8.75 meter/sec
+Weather Report: clear sky
+
