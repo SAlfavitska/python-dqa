@@ -114,7 +114,7 @@ class FileData:
             if record_elements[0] == 'News':
                 obj = News(record_elements[1], record_elements[2])
                 self.text_to_append += self.add_empty_rows_below(str(obj))
-            elif record_elements[0] == 'PrivateAd':
+            elif record_elements[0] == 'Privatead':
                 obj = PrivateAd(record_elements[1], record_elements[2])
                 self.text_to_append += self.add_empty_rows_below(str(obj))
             elif record_elements[0] == 'Quote':
@@ -169,7 +169,7 @@ class Choose:
     def delete_source_file(path, source_file_name):
         path = os.path.join(path, source_file_name)
         os.remove(path)
-        print(f"{source_file_name} has been removed successfully")
+        print(f"{source_file_name} has been removed successfully.")
 
     @staticmethod
     def news():
@@ -215,4 +215,4 @@ if __name__ == '__main__':
                 file_content = user_choose.read_file(file_path, source_file_name)
                 file_data = FileData(file_content)
                 user_choose.to_file(str(file_data))
-                user_choose.delete_source_file(file_path,source_file_name)
+                user_choose.delete_source_file(file_path, source_file_name)
