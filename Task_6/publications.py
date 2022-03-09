@@ -1,7 +1,7 @@
 from datetime import datetime
 import sys
 import os
-from strings_HW_3.strings_homework_3_review import correct_letters_case
+from string_normalization import correct_letters_case
 
 
 class NewsFeed:
@@ -191,7 +191,7 @@ class Choose:
 
 
 if __name__ == '__main__':
-    source_file_name = 'input_file.txt'
+    source_file_name = 'input.txt'
     while True:
         user_choose = Choose()
         if user_choose.input_type == '1':
