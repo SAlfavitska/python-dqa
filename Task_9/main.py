@@ -1,6 +1,6 @@
 import os
 from choose import Choose
-from data_from_txt_json import FileData
+from data_from_txt_json_xml import FileData
 from csv_files_generation import CSVFile
 
 
