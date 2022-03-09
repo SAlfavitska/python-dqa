@@ -1,0 +1,25 @@
+[
+     {
+		"type": "News",
+        "text": "Today's news",
+        "city": "London"
+     },
+
+     {
+		"type": "News",
+        "text": "Other today's news!!!",
+        "city": "Prague"
+	 },
+
+     {
+		"type": "PrivateAd",
+        "text": "Does anybody sell a bike?",
+        "valid_until": "28/05/2022"
+	 },
+
+     {
+		"type": "Quote",
+        "text": "Not how long, but how well you have lived is the main thing.",
+        "author": "Seneca"
+	 }
+]
