@@ -36,11 +36,11 @@ class Choose:
         elif self.input_type == '3':
             sys.exit()
 
-        self.source_file_path = os.path.join(self.file_path, self.source_file_name)
+        # self.source_file_path = os.path.join(self.file_path, self.source_file_name)
 
     def xml_to_list(self):
         # xml_file = et.parse(f'{self.file_path}\\{self.source_file_name}')
-        xml_file = et.parse(self.source_file_path)
+        xml_file = et.parse(os.path.join(self.file_path, self.source_file_name))
         root = xml_file.getroot()
         list_based_on_xml = list()
         for el in root:
@@ -52,10 +52,10 @@ class Choose:
 
     def read_txt_file(self):
         try:
-            with open(self.source_file_path, "r+") as file:
+            with open(os.path.join(self.file_path, self.source_file_name), "r+") as file:
                 return file.read()
         except IOError:
-            print(f'File {self.source_file_path} was not found!')
+            print(f'File {os.path.join(self.file_path, self.source_file_name)} was not found!')
             sys.exit()
 
     @staticmethod
